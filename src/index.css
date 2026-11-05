@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-font2: "font2";
+}
+
+@font-face {
+  font-family: font2;
+  src: url('/fonts/Lausanne-300%20%281%29.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: font2;
+  src: url('/fonts/Lausanne-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+}
